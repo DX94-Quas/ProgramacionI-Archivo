@@ -71,6 +71,10 @@ public class Tarea1
         System.out.println(charDiferentes("abcdaaa"));
         //15
         System.out.println(ordenado("fhgbutgbv"));
+        //8
+        System.out.println(charDisjuntos("asdf","456789"));
+        //40
+        System.out.println(eliminarChar("programacion", 2));
         ///////////////////////////////////////////////////////////////////////
         //Pruebas de Librerias Meme
         System.out.println(ordenAsc("123456789"));
@@ -169,6 +173,16 @@ public class Tarea1
             i=i+1;
         }
         return a == 0;
+    }
+    //8
+    public static boolean charDisjuntos(String S1, String S2)
+    {
+        String S3 = S1 +S2;
+        for(int i=0 ; i < S1.length() ; i++)
+        {
+            if (cantidadMod(S3,S3.charAt(i)) > 1) return false;
+        }
+        return true;
     }
     //10
     public static String eliminarChar(String S1, String S2)
@@ -471,6 +485,16 @@ public class Tarea1
             i=i+1;
         }
         return S2;
+    }
+    //40
+    public static String eliminarChar(String S1, int n)
+    {
+        String S3 ="";
+        for (int i = 0; i < S1.length(); i++)
+        {
+            if(cantidadMod(S1,S1.charAt(i)) != n) S3 = S3 + S1.charAt(i);
+        }
+        return S3;
     }
     //41
     public static String dividirChar(String S1)
