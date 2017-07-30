@@ -15,8 +15,7 @@ public class Clase2607xP1
     public static void mostrarIgualesMod(String S1)
     {
         String S2;
-        for (int i =0 ; i < S1.length() ; i++)
-       
+        for (int i =0 ; i < S1.length() ; i++) 
         {
             for (int j = i+1 ; j <= S1.length() ; j++)
             {
