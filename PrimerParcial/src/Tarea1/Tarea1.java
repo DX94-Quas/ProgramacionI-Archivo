@@ -69,15 +69,14 @@ public class Tarea1
         System.out.println(diaSemana("asdghjtghntmartesbfuvbu"));
         //7
         System.out.println(charDiferentes("abcdaaa"));
+        //15
+        System.out.println(ordenado("fhgbutgbv"));
+        ///////////////////////////////////////////////////////////////////////
+        //Pruebas de Librerias Meme
+        System.out.println(ordenAsc("123456789"));
+        System.out.println(ordenDesc("123456789"));
     }
     ///////////////////////////////////////////////////////////////////////////
-    //MOD
-    public static boolean ordenado(String S1)
-    {
-        // return ordenAsc(S1) || OrdenDesc(s1)
-        return S1 == "";
-    }
-
     //1
     public static boolean vocalesJuntas(String S1)
     {
@@ -233,6 +232,11 @@ public class Tarea1
         if (a != -1 && e != -1 && i != -1 && o != -1 && u != -1) may = 1;
         if (A !=-1 && E !=-1 && I !=-1 && O !=-1 && U !=-1) men =1;
         return may==1 || men ==1;
+    }
+    //15
+    public static boolean ordenado(String S1)
+    {
+        return ordenAsc(S1) || ordenDesc(S1);
     }
     //16
     public static boolean puroLetras(String S1)
@@ -527,7 +531,18 @@ public class Tarea1
     }
     public static boolean ordenAsc(String S1)
     {
-        return S1 == "";
+        for (int i1=0 ; i1 < S1.length() - 1 ; i1++)
+        {
+           if (S1.charAt(i1) > S1.charAt(i1+1) ) return false;
+        }
+        return true;
     }
-    
+    public static boolean ordenDesc(String S1)
+    {
+        for (int i1=0 ; i1 < S1.length() - 1 ; i1++)
+        {
+           if (S1.charAt(i1) < S1.charAt(i1+1) ) return false;
+        }
+        return true;
+    }
 }
