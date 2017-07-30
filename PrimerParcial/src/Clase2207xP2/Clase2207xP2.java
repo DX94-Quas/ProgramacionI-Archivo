@@ -1,4 +1,8 @@
+// Para Info. de Licencias refiérase al archivo LICENSE ubicado
+// donde estan contenidos todos los proyectos
+
 package Clase2207xP2;
+
 public class Clase2207xP2 
 {
     public static void main(String[] args) 

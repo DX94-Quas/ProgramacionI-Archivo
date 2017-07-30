@@ -1,3 +1,6 @@
+// Para Info. de Licencias refiérase al archivo LICENSE ubicado
+// donde estan contenidos todos los proyectos
+
 package Clase2607xP1;
 
 import static Tarea1.Tarea1.charIguales;

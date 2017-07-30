@@ -1,4 +1,8 @@
+// Para Info. de Licencias refiérase al archivo LICENSE ubicado
+// donde estan contenidos todos los proyectos
+
 package Clase2407xP1;
+
 import static Tarea1.Tarea1.charIguales;
 import static Tarea1.Tarea1.puroLetras;
 import static Tarea1.Tarea1.alfaNumerico;
