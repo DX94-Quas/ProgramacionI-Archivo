@@ -525,5 +525,9 @@ public class Tarea1
         }
         return c;
     }
+    public static boolean ordenAsc(String S1)
+    {
+        return S1 == "";
+    }
     
 }
