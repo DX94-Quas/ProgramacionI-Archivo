@@ -514,11 +514,13 @@ public class Tarea1
         }
         return i1!=-1 && i3==0 ;
     }
+    ///////////////////////////////////////////////////////////////////////////
     // Librerias Meme necesarias paq todo funcione
     public static boolean isVocal (char ch)
     {
         return "AEIOUaeiou".indexOf(ch) >= 0;
     }
+    //
     public static int cantidadMod(String S1, char S2)
     {
         int k = S1.indexOf(S2), c = 0;
@@ -529,6 +531,7 @@ public class Tarea1
         }
         return c;
     }
+    //
     public static boolean ordenAsc(String S1)
     {
         for (int i1=0 ; i1 < S1.length() - 1 ; i1++)
@@ -537,6 +540,7 @@ public class Tarea1
         }
         return true;
     }
+    //
     public static boolean ordenDesc(String S1)
     {
         for (int i1=0 ; i1 < S1.length() - 1 ; i1++)
