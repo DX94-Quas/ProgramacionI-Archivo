@@ -7,68 +7,68 @@ public class Tarea1
 {
     public static void main(String[] args) 
     {
-        //37
-        System.out.println(extensionArchivo("virus.java"));
-        //48
-        System.out.println(emailValido("form5498@hotmail.com"));
-        //28
-        System.out.println(generarCadena("abc",3));
-        //35
-        System.out.println(entreParentesis("fo(rgreg)ghrieg"));
-        //14
-        System.out.println(tienetodasVocales("AEIO"));
-        //2
-        System.out.println(sinVocales("frhgjtp"));
-        //20
-        System.out.println(charIguales("aeeeeeaaeee"));
-        //6
-        System.out.println(sumaDigitos("2222"));
-        //18
-        System.out.println(puroVocales("aaaaaab"));
-        //41
-        System.out.println(dividirChar("333333"));
-        //38
-        System.out.println(vocales("programacion"));
-        //39
-        System.out.println(strSinVocales("programacion"));
-        //5
-        System.out.println(extraerDigitos("madam777888"));
-        //25
-        System.out.println(eliminarVocales("madam"));
-        //26
-        System.out.println(eliminarDigitos("eltocho777x78"));
-        //24
-        System.out.println(separarChar("asdf","123"));
-        //34
-        System.out.println(comentarioEliminado("asdf //esto borra el disco C"));
-        //4
-        System.out.println(eliminarEspacios("el perro"));
-        //23
-        System.out.println(vocalesToMay("elperro"));
-        //36
-        System.out.println(formatoComas("lo bueno,lo malo,lo feo"));
-        //30
-        System.out.println(justificarDer("abc","def",5));
-        //32
-        System.out.println(cantidadCadena("x","abcabcabc"));
-        //10
-        System.out.println(eliminarChar("abcdefghijk","agk"));
-        //3
-        System.out.println(cadenaInvertida("madam"));
-        //11
-        System.out.println(pasarMay("abcdefghijk","agk"));
-        //33
-        System.out.println(eliminarUltimo("abc","asdfgHabcXweq"));
-        //1
-        System.out.println(vocalesJuntas("sdfeagh"));
-        //42
-        System.out.println(tieneDiptongo("sdfegh"));
-        //12
-        System.out.println(esSecuencia("xyzxyzxyz","xyz"));
-        //13
-        System.out.println(diaSemana("asdghjtghntmartesbfuvbu"));
-        //7
-        System.out.println(charDiferentes("abcdaaa"));
+//        //37
+//        System.out.println(extensionArchivo("virus.java"));
+//        //48
+//        System.out.println(emailValido("form5498@hotmail.com"));
+//        //28
+//        System.out.println(generarCadena("abc",3));
+//        //35
+//        System.out.println(entreParentesis("fo(rgreg)ghrieg"));
+//        //14
+//        System.out.println(tienetodasVocales("AEIO"));
+//        //2
+//        System.out.println(sinVocales("frhgjtp"));
+//        //20
+//        System.out.println(charIguales("aeeeeeaaeee"));
+//        //6
+//        System.out.println(sumaDigitos("2222"));
+//        //18
+//        System.out.println(puroVocales("aaaaaab"));
+//        //41
+//        System.out.println(dividirChar("333333"));
+//        //38
+//        System.out.println(vocales("programacion"));
+//        //39
+//        System.out.println(strSinVocales("programacion"));
+//        //5
+//        System.out.println(extraerDigitos("madam777888"));
+//        //25
+//        System.out.println(eliminarVocales("madam"));
+//        //26
+//        System.out.println(eliminarDigitos("eltocho777x78"));
+//        //24
+//        System.out.println(separarChar("asdf","123"));
+//        //34
+//        System.out.println(comentarioEliminado("asdf //esto borra el disco C"));
+//        //4
+//        System.out.println(eliminarEspacios("el perro"));
+//        //23
+//        System.out.println(vocalesToMay("elperro"));
+//        //36
+//        System.out.println(formatoComas("lo bueno,lo malo,lo feo"));
+//        //30
+//        System.out.println(justificarDer("abc","def",5));
+//        //32
+//        System.out.println(cantidadCadena("x","abcabcabc"));
+//        //10
+//        System.out.println(eliminarChar("abcdefghijk","agk"));
+//        //3
+//        System.out.println(cadenaInvertida("madam"));
+//        //11
+//        System.out.println(pasarMay("abcdefghijk","agk"));
+//        //33
+//        System.out.println(eliminarUltimo("abc","asdfgHabcXweq"));
+//        //1
+//        System.out.println(vocalesJuntas("sdfeagh"));
+//        //42
+//        System.out.println(tieneDiptongo("sdfegh"));
+//        //12
+//        System.out.println(esSecuencia("xyzxyzxyz","xyz"));
+//        //13
+//        System.out.println(diaSemana("asdghjtghntmartesbfuvbu"));
+//        //7
+//        System.out.println(charDiferentes("abcdaaa"));
     }
     ///////////////////////////////////////////////////////////////////////////
     //MOD
