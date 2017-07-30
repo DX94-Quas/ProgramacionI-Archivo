@@ -10,7 +10,7 @@ public class Tarea1
         //37
         System.out.println(extensionArchivo("virus.java"));
         //48
-        System.out.println(emailValido("form5498@hotmail.com"));
+        System.out.println(emailValido("form_5498@hotmail.com"));
         //28
         System.out.println(generarCadena("abc",3));
         //35
@@ -212,7 +212,7 @@ public class Tarea1
         int v = S1.indexOf("viernes");       
         int s = S1.indexOf("sabado");
         int d = S1.indexOf("domingo");
-        return l != -1 || m != -1 || x != -1 || j != -1 || v != -1 || s != -1 || d != -1;
+        return l != -1 || m != -1 || x != -1 || j != -1 || v != -1 || s != -1 || d != -1; 
     }
     //14
     public static boolean tienetodasVocales(String S1)
@@ -512,6 +512,8 @@ public class Tarea1
                 i2=i2+1;
             }
         }
+        i3 = i3 - cantidadMod(S1,'_');
+        System.out.println(i3);
         return i1!=-1 && i3==0 ;
     }
     ///////////////////////////////////////////////////////////////////////////

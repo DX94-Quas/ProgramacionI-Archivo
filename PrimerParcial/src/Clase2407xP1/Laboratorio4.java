@@ -154,16 +154,4 @@ public class Laboratorio4
         }
         return true;
     }
-    ////////////////////////////////////////////////////////////////////////////
-    //MAS LIBRERIAS VERGA
-    public static int cantidadMod(String S1, char S2)
-    {
-        int k = S1.indexOf(S2), c = 0;
-        while ( k >=0 )
-        {
-            c = c + 1;
-            k = S1.indexOf(S2, k + 1);
-        }
-        return c;
-    }
 }
