@@ -86,7 +86,7 @@ public class Tarea1
     {
         int i=0;
         int a=0;
-        while (i < S1.length())
+        while (i < S1.length() - 1)
         {
             if (isVocal(S1.charAt(i)) && isVocal(S1.charAt(i+1)) == true) a++;
             i=i+1;
@@ -574,5 +574,12 @@ public class Tarea1
            if (S1.charAt(i1) < S1.charAt(i1+1) ) return false;
         }
         return true;
+    }
+    //
+    public static int digito (char ch)
+    {
+        int k = "0123456789".indexOf(ch);
+        if (k <0) return 0;
+        else return k;
     }
 }
