@@ -9,8 +9,8 @@ public class Clase3107
 {
     public static void main(String[] args)
     {
-        //mostrarTokens("for(int i = 0 ; j = S1.length() ; i < j ;i++ , j--)");
-        //System.out.println(palabrasIguales("ab ab ab ab"));
+        mostrarTokens("for(int i = 0 ; j = S1.length() ; i < j ;i++ , j--)");
+        System.out.println(palabrasIguales("ab ab ab ab"));
         System.out.println(palabrasAscendentes("abe abc"));
     }
     ///////////////////////////////////////////////////////////////////////////
