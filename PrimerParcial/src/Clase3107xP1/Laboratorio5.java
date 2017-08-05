@@ -23,9 +23,9 @@ public class Laboratorio5
         //6
         iniciales("El Coco se ha caido");
         //10
-        System.out.println(seEncuentra("oso","el oso se durmio"));
+        System.out.println(seEncuentra("oso", "el oso se durmio"));
         //12
-        System.out.println(frecuenciaPal("abc def abc abc abc","abc"));
+        System.out.println(frecuenciaPal("abc def abc abc abc", "abc"));
         //4
         mostrarPalabrasVocal("abaco lotto alto marea");
         //17
@@ -37,7 +37,7 @@ public class Laboratorio5
         //16
         System.out.println(ultimaPalabra("el payaso se murio"));
         //13
-        System.out.println(excluyentes("nada que ver","el gato"));
+        System.out.println(excluyentes("nada que ver", "el gato"));
         //5
         System.out.println(darFormato("eL cOcO"));
         //14
