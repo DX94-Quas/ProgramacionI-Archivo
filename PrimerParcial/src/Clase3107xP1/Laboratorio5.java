@@ -21,7 +21,7 @@ public class Laboratorio5
         //9
         System.out.println(PalabrasOrd("abc 123 456 654"));
         //6
-        iniciales("El Coco se ha caido");
+        System.out.println(iniciales("El Coco se ha caido"));
         //10
         System.out.println(seEncuentra("oso", "el oso se durmio"));
         //12
@@ -125,17 +125,17 @@ public class Laboratorio5
     }
 
     //6
-    public static void iniciales(String S1)
+    public static String iniciales(String S1)
     {
         StringTokenizer st = new StringTokenizer(S1, "(),; .");
+        String S2 = "";
         while (st.hasMoreTokens())
         {
             String token = st.nextToken();
-            if (Character.isUpperCase(token.charAt(0)) == true)
-            {
-                System.out.println(token.charAt(0));
-            }
+            String token2 = token.toUpperCase();
+            S2 = S2 + token2.charAt(0);
         }
+        return S2;
     }
 
     //7
