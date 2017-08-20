@@ -13,30 +13,30 @@ public class Examen1
 
     public static void main(String[] args)
     {
-//        //
-//        System.out.println(generarCadena('*', 5));
-//        //
-//        System.out.println(generarCapicua("abc"));
-//        //
-//        System.out.println(valorFrase("xyz"));
-//        //
-//        System.out.println(concatenarOrden("xyz", "abc"));
-//        //
+        //
+        System.out.println(generarCadena('*', 5));
+        //
+        System.out.println(generarCapicua("abc"));
+        //
+        System.out.println(valorFrase("xyz"));
+        //
+        System.out.println(concatenarOrden("xyz", "abc"));
+        //
         System.out.println(dentroCadena( "abc", "123abc456"));
-//        //
-//        mostrarAsc("pa123ro987me");
-//        //
-//        mostrarSub("palindrome");
-//        //
-//        mostrarChar("palindrome", 'i');
-//        //
-//        mostrarPalindromes("racecar vagancia madam");
-//        //
-//        mostrarPalabrasAsc("cba abc 123 456 987");
-//        //
-//        System.out.println(cantVocal("aeiou"));
-//        //
-//        mostrarPalabrasVocal("aa ee ii oo uu enam vago oo nhay", 2);
+        //
+        mostrarAsc("pa123ro987me");
+        //
+        mostrarSub("palindrome");
+        //
+        mostrarChar("palindrome", 'i');
+        //
+        mostrarPalindromes("racecar vagancia madam");
+        //
+        mostrarPalabrasAsc("cba abc 123 456 987");
+        //
+        System.out.println(cantVocal("aeiou"));
+        //
+        mostrarPalabrasVocal("aa ee ii oo uu enam vago oo nhay", 2);
     }
 
     //////////////////////////////////////////////////////////////////////////
