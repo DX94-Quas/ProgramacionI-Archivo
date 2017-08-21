@@ -48,7 +48,7 @@ public class Clase2108xP1
         r3.dividir(r1, r2);
         System.out.println(r3);
 
-        Racional R4 = new Racional(500, 1000);
+        Racional R4 = new Racional(200, 1000);
         R4.simplificar(R4);
         System.out.println(R4);
 
