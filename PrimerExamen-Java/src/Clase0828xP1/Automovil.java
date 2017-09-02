@@ -1,6 +1,6 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
-package Clase2808xP1;
+package Clase0828xP1;
 
 public class Automovil
 {
