@@ -1,7 +1,7 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
 
-package Clase2207xP2;
+package Clase0722xP2;
 
 public class Laboratorio1 {
     

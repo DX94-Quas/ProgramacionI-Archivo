@@ -5,7 +5,7 @@ package PrimerExamen;
 import static Tarea1.Tarea1.cadenaInvertida;
 import static Tarea1.Tarea1.ordenAsc;
 import static Tarea1.Tarea1.isVocal;
-import static Clase2407xP1.Laboratorio4.palindrome;
+import static Clase0724xP1.Laboratorio4.palindrome;
 import java.util.StringTokenizer;
 
 public class Examen1

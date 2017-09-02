@@ -1,6 +1,6 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
-package Clase2108xP1;
+package Clase0821xP1;
 
 public class Racional
 {

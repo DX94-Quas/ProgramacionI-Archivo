@@ -1,7 +1,7 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
 
-package Clase2407xP1;
+package Clase0724xP1;
 
 public class Clase2407xP1 
 {

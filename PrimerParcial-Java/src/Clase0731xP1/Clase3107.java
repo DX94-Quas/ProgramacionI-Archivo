@@ -1,6 +1,6 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
-package Clase3107xP1;
+package Clase0731xP1;
 
 import java.util.StringTokenizer;
 

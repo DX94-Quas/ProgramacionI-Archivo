@@ -1,6 +1,6 @@
 // Para Info. de Licencias refiérase al archivo LICENSE ubicado
 // donde estan contenidos todos los proyectos
-package Clase0208xP1;
+package Clase0802xP1;
 
 import static Tarea1.Tarea1.isVocal;
 import static Tarea1.Tarea1.digito;
