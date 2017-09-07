@@ -38,6 +38,8 @@ int mayorBin(int a, int b, int c)
         else return c;
 }
 
+///////////////////////////////////////////////////////////////////////////////
+
 int main()
 {
     cout << "Hello World!" << endl;
