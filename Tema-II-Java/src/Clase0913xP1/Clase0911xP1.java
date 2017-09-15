@@ -89,8 +89,12 @@ public class Clase0911xP1
         }
         return true;
     }
-    
-    
+
+    //6
+    public static boolean ordenado(int a[])
+    {
+        return ordenAsc(a) || ordenDesc(a);
+    }
 
     //7
     public static boolean diferentes(int a[])
@@ -163,34 +167,44 @@ public class Clase0911xP1
     //12
     public static boolean palindrome(int a[])
     {
-        int i=0;
-        while (i<a.length)
+        int i = 0;
+        while (i < a.length)
         {
-            if(a[i] != a[a.length-i]) return false;
+            if (a[i] != a[a.length - i])
+            {
+                return false;
+            }
         }
         return true;
     }
     //////////////////////////////////////////////////////////////////////////
-    
+
     public static boolean ordenAsc(int a[])
     {
-    int i =0;
-    while(i<a.length-1)
-    {
-        if (a[i]>a[i+1]) return false;
-        i=i+1;
+        int i = 0;
+        while (i < a.length - 1)
+        {
+            if (a[i] > a[i + 1])
+            {
+                return false;
+            }
+            i = i + 1;
+        }
+        return true;
     }
-    return true;
-    }
+
     public static boolean ordenDesc(int a[])
     {
-    int i =0;
-    while(i<a.length-1)
-    {
-        if (a[i]<a[i+1]) return false;
-        i=i+1;
-    }
-    return true;
+        int i = 0;
+        while (i < a.length - 1)
+        {
+            if (a[i] < a[i + 1])
+            {
+                return false;
+            }
+            i = i + 1;
+        }
+        return true;
     }
 
 }
