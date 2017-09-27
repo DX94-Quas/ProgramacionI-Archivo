@@ -5,15 +5,18 @@ package Clase0821xP1;
 public class Racional
 {
 
+    //Atributos
     private int num;
     private int den;
 
+    //Constructor
     public Racional(int num, int den)
     {
         this.num = num;
         this.den = den;
     }
 
+    //Metodos
     public String toString()
     {
         return this.num + " / " + this.den;
