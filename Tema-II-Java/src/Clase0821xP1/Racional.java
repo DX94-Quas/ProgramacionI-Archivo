@@ -54,7 +54,7 @@ public class Racional
     {
         int mc = mcd(r1.num, r1.den);
         this.num = this.num / mc;
-        this.den = this.den / mc;     
+        this.den = this.den / mc;
     }
 
     ///////////////////////////////////////////////////////////////////////////
