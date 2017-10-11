@@ -186,10 +186,9 @@ public class Lista
         return -1;
     }
 
-
 //////////////////////////////////////////////////////////////////////////
-//Metodos Auxiliares
-public boolean ordenAsc()
+// Metodos Auxiliares
+    public boolean ordenAsc()
     {
         int i = 0;
         while (i < this.cantElem - 1)
