@@ -125,33 +125,33 @@ public class Lista02
     //9
     public void eliminarPrim(int n)
     {
-        int i=0;
-        while (i<n)
+        int i = 0;
+        while (i < n)
         {
             this.eliminarPrim();
-            i=i+1;
+            i = i + 1;
         }
     }
-    
+
     //10
     public void eliminarUlt(int n)
     {
-                int i=0;
-        while (i<n)
+        int i = 0;
+        while (i < n)
         {
             this.eliminarUlt();
-            i=i+1;
+            i = i + 1;
         }
     }
-    
+
     //11
     public void eliminarIesimo(int i, int n)
     {
-        int c=0;
-        while(c<n)
+        int c = 0;
+        while (c < n)
         {
             this.eliminarIesimo(i);
-            c=c+1;
+            c = c + 1;
         }
     }
 
